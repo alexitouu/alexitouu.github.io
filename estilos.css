@@ -1,3 +1,12 @@
+@font-face {
+    font-family: DynaPuff;
+    src: url(DynaPuff-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family:Creepster ;
+    src: url(Creepster-Regular.ttf);
+}
+
 #boton {
     background-color: pink;
     border-radius: 10px;
@@ -21,9 +30,10 @@ a {
 
 body {
     background-color: darkgreen;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: DynaPuff;
     background-color: #ffdd90;
-    background-image: url("CANNABIS2.webp");
+    background-image: url("CANNABIS\ RECORTADO.jpg") ;
+    background-size: 100%;
 }
 
 img {
@@ -43,7 +53,9 @@ img {
     border-radius: 20px;
     width: 50%;
     margin: 10% 25% 5% 25%;
+
 }
+
 
 .texto2 {
 
@@ -66,17 +78,18 @@ img {
 }
 
 .texto4 {
-
     background-color: rgb(17, 224, 17);
-
     width: 50%;
     margin: 5% 25% 5% 25%;
-
-
+}
+.contactofondo {
+    background-color: rgba(17, 224, 17, 0.311);
+    width: 50%;
+    margin: 5% 25% 5% 25%;
 }
 
 header {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(16, 17, 16, 0.162);
     width: 100%;
     position: fixed;
     z-index: 100;
@@ -94,7 +107,7 @@ nav ul {
 
 nav ul li {
     float: left;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: creepster;
     ;
     font-size: 20px;
 }
@@ -112,13 +125,20 @@ nav ul li:hover {
 
 .slider-container {
     display: flex;
-    width: 100%;
+    width: 50%;
     height: 100vh;
     overflow-x: scroll;
+    margin: 5% 25% 5% 25%;
 }
 
 .slider-container img {
     flex: 0 0 100%;
     width: 100%;
     object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+    .texto-centrado{
+         width: 50%;
+    }
 }
