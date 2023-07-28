@@ -1,0 +1,198 @@
+body {
+    background-color: #eaf4e0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #4caf50;
+    text-align: center;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .contact-icon {
+    width: 100px;
+    font-weight: bold;
+  }
+  
+  .contact-detail {
+    margin: 0;
+    padding-left: 10px;
+  }
+  
+  .more-info {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #4caf50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .more-info:hover {
+    background-color: #45a049;
+  }
+
+  @font-face {
+    font-family: DynaPuff;
+    src: url(DynaPuff-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family:Creepster ;
+    src: url(Creepster-Regular.ttf);
+}
+
+#boton {
+    background-color: pink;
+    border-radius: 10px;
+    padding: 15px;
+    border-style: dotted;
+    margin: 30px;
+
+
+
+}
+
+#boton:hover {
+    background-color: red;
+    ;
+
+}
+
+a {
+    width: 20%;
+}
+
+body {
+    background-color: darkgreen;
+    font-family: DynaPuff;
+    background-color: #ffdd90;
+    background-image: url("CANNABIS\ RECORTADO.jpg") ;
+    background-size: 100%;
+}
+
+img {
+
+    width: 100%;
+
+}
+
+#imagen-boton {
+    margin: 10% 40% 10% 40%;
+    display: block;
+}
+
+.texto-centrado {
+    text-align: center;
+    background-color: rgb(17, 224, 17);
+    border-radius: 20px;
+    width: 50%;
+    margin: 10% 25% 5% 25%;
+
+}
+
+
+.texto2 {
+
+    background-color: rgb(17, 224, 17);
+
+    width: 50%;
+    margin: 5% 25% 5% 25%;
+
+
+}
+
+.texto3 {
+
+    background-color: rgb(17, 224, 17);
+
+    width: 50%;
+    margin: 5% 25% 5% 25%;
+
+
+}
+
+.texto4 {
+    background-color: rgb(17, 224, 17);
+    width: 50%;
+    margin: 5% 25% 5% 25%;
+}
+.contactofondo {
+    background-color: rgba(17, 224, 17, 0.311);
+    width: 50%;
+    margin: 5% 25% 5% 25%;
+}
+
+header {
+    background: rgba(16, 17, 16, 0.162);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0%;
+}
+
+nav {
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    font-family: creepster;
+    ;
+    font-size: 20px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: #eca023;
+}
+
+.slider-container {
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    overflow-x: scroll;
+    margin: 5% 25% 5% 25%;
+}
+
+.slider-container img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+    .texto-centrado{
+         width: 50%;
+    }
+}
