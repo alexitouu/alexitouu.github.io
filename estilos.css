@@ -49,10 +49,10 @@ img {
 
 .texto-centrado {
     text-align: center;
-    background-color: rgb(45, 188, 45);
+    background-color: rgb(78, 151, 78);
     border-radius: 20px;
     width: 50%;
-    margin: 10% 25% 5% 25%;
+    margin: 10% 35% 5% 25%;
 
 }
 
@@ -150,4 +150,22 @@ nav ul li:hover {
 
 .contact-info{
     margin: 5% 25% 5% 25%; 
+}
+
+
+.carrusel1 {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.carrusel1-img {
+    width: 20%;
+    height: auto;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.carrusel1-img:hover {
+    transform: scale(1.1);
 }
